@@ -88,4 +88,30 @@ small{
     font-size: 10px;
     color:red;
 }
-
+.about{
+    display: flex;
+    background-position: left;
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+    background-size: 100px;
+    margin-bottom: 40px;
+}
+.about-left{
+    width:50%;
+    margin:20px 20px 0 0;
+}
+.about-right{
+    width:50%;   
+}
+.about-img{
+    width:100%;
+    padding-bottom: 15px;
+}
+.about-right h2{
+    text-align: left;
+    font-size: bold;
+}
+.about-right p{
+    text-align: justify;
+}
