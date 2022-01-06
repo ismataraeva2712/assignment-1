@@ -162,13 +162,13 @@ small{
 }
 .donation{
     width:33.5%;
-    background-color: rgb(126, 247, 132);
+    background-color: rgb(191, 238, 194);
 }
 .donation-edu{
-    background-color: rgb(236, 141, 236);
+    background-color: rgb(235, 202, 235);
 }
 .donation-medical{
-    background-color: rgb(240, 146, 129);
+    background-color: rgb(182, 211, 218);
     padding-bottom: 25px;
 }
 .donation h3{
