@@ -41,6 +41,13 @@ button{
     color:white;
     font-size: bold;
     font-weight: 900;
+    transition:0.8s;
+}
+button:hover{
+    background-image: linear-gradient(black,white);
+    color:red;
+    cursor: pointer;
+    font-size:18px;
 }
 .heading-image{
     width:100%;
@@ -91,10 +98,10 @@ small{
 .about{
     display: flex;
     background-position: left;
-    background-image: url(image/dream-bg.png);
+    background-image: url(image/shape2.png);
     background-repeat: no-repeat;
     padding-left: 100px;
-    background-size: 100px;
+    background-size: 200px;
     margin-bottom: 40px;
 }
 .about-left{
@@ -106,12 +113,94 @@ small{
 }
 .about-img{
     width:100%;
-    padding-bottom: 15px;
+    padding-bottom:20px;
 }
 .about-right h2{
     text-align: left;
-    font-size: bold;
+    font-size: 25px;
+    font-weight: 700;
 }
 .about-right p{
     text-align: justify;
+}
+.service{
+    display:flex;
+    margin-bottom: 40px;
+}
+.service-left{
+    width:50%;
+}
+.service-right{
+    width:50%;
+}
+.service-img{
+    width:100%;
+    height:350px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+.service-left h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+.service-left p{
+    text-align: justify;
+    margin-right: 30px;
+}
+.donate{
+    display: flex;
+}
+.goal{
+    width:100%;
+    box-shadow: 10px 10px 40px gray;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.main-mission-section{
+    padding-bottom:40px;
+}
+.donation{
+    width:33.5%;
+    background-color: rgb(126, 247, 132);
+}
+.donation-edu{
+    background-color: rgb(236, 141, 236);
+}
+.donation-medical{
+    background-color: rgb(240, 146, 129);
+    padding-bottom: 25px;
+}
+.donation h3{
+    text-align: center;
+}
+.donation p{
+    text-align: center;
+}
+.donate-section-right{
+margin:70px 0 40px 100px;
+}
+.donate-section-right h3{
+    font-size: 25px;
+}
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 20px;
+}
+footer h3{
+    color:white;
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px;
+    padding-top:40px;
+}
+.year{
+    color:red;
+}
+.last-footer{
+    text-align: center;
+    display:block;
+    color: white;
 }
